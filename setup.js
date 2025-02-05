@@ -1,6 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-const appConfig = require('../playwright-functional/configs/config');
+const appConfig = require('./configs/config');
 
 const env = process.env.NODE_ENV || 'qa';
 console.log("🔹 Environment:", env);
