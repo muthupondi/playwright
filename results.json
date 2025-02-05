@@ -1,0 +1,350 @@
+{
+  "config": {
+    "configFile": "C:\\Users\\muthupondi.selvam\\Downloads\\Automation_PAM\\playwright-functional\\playwright.config.js",
+    "rootDir": "C:/Users/muthupondi.selvam/Downloads/Automation_PAM/playwright-functional/tests",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": "C:\\Users\\muthupondi.selvam\\Downloads\\Automation_PAM\\playwright-functional\\setup.js",
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "results.json"
+        }
+      ],
+      [
+        "html",
+        null
+      ],
+      [
+        "C:\\Users\\muthupondi.selvam\\Downloads\\Automation_PAM\\playwright-functional\\node_modules\\allure-playwright\\dist\\index.js",
+        null
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "C:/Users/muthupondi.selvam/Downloads/Automation_PAM/playwright-functional/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "C:/Users/muthupondi.selvam/Downloads/Automation_PAM/playwright-functional/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 60000
+      },
+      {
+        "outputDir": "C:/Users/muthupondi.selvam/Downloads/Automation_PAM/playwright-functional/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "C:/Users/muthupondi.selvam/Downloads/Automation_PAM/playwright-functional/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 60000
+      },
+      {
+        "outputDir": "C:/Users/muthupondi.selvam/Downloads/Automation_PAM/playwright-functional/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "C:/Users/muthupondi.selvam/Downloads/Automation_PAM/playwright-functional/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 60000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.49.1",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "orangeHRMUsingJS.spec.js",
+      "file": "orangeHRMUsingJS.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "should open the base URL",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 6059,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-02-05T08:48:36.518Z",
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\muthupondi.selvam\\Downloads\\Automation_PAM\\playwright-functional\\test-results\\orangeHRMUsingJS-should-open-the-base-URL-chromium\\test-finished-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\muthupondi.selvam\\Downloads\\Automation_PAM\\playwright-functional\\test-results\\orangeHRMUsingJS-should-open-the-base-URL-chromium\\video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "15c3bb07e26c1a49f052-7657b71b447e0ac60747",
+          "file": "orangeHRMUsingJS.spec.js",
+          "line": 14,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "test.spec.js",
+      "file": "test.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "OrangeHRM Application System User Validation Using JS",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 35247,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "username { username: \u001b[32m'Admin'\u001b[39m, password: \u001b[32m'admin123'\u001b[39m }\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-02-05T08:48:43.949Z",
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\muthupondi.selvam\\Downloads\\Automation_PAM\\playwright-functional\\test-results\\test-OrangeHRM-Application-System-User-Validation-Using-JS-chromium\\test-finished-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\muthupondi.selvam\\Downloads\\Automation_PAM\\playwright-functional\\test-results\\test-OrangeHRM-Application-System-User-Validation-Using-JS-chromium\\video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "31be70adcd52654ff551-56280ae7512a0f786d06",
+          "file": "test.spec.js",
+          "line": 7,
+          "column": 1
+        },
+        {
+          "title": "machine2",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 367,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "machine2\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-02-05T08:49:19.203Z",
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\muthupondi.selvam\\Downloads\\Automation_PAM\\playwright-functional\\test-results\\test-machine2-chromium\\test-finished-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\muthupondi.selvam\\Downloads\\Automation_PAM\\playwright-functional\\test-results\\test-machine2-chromium\\video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "31be70adcd52654ff551-558dd6123ab51ad982bc",
+          "file": "test.spec.js",
+          "line": 44,
+          "column": 1
+        },
+        {
+          "title": "machine3",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 359,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "machine3\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-02-05T08:49:19.577Z",
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\muthupondi.selvam\\Downloads\\Automation_PAM\\playwright-functional\\test-results\\test-machine3-chromium\\test-finished-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\muthupondi.selvam\\Downloads\\Automation_PAM\\playwright-functional\\test-results\\test-machine3-chromium\\video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "31be70adcd52654ff551-5fac74deaf63e81fb671",
+          "file": "test.spec.js",
+          "line": 47,
+          "column": 1
+        },
+        {
+          "title": "machine4",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 320,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "machine4\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-02-05T08:49:19.940Z",
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\muthupondi.selvam\\Downloads\\Automation_PAM\\playwright-functional\\test-results\\test-machine4-chromium\\test-finished-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\muthupondi.selvam\\Downloads\\Automation_PAM\\playwright-functional\\test-results\\test-machine4-chromium\\video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "31be70adcd52654ff551-c60e131a5a45544324b5",
+          "file": "test.spec.js",
+          "line": 50,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2025-02-05T08:48:35.695Z",
+    "duration": 44753.956,
+    "expected": 5,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

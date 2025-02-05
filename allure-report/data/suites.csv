@@ -1,0 +1,6 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","320","machine4","chromium","Wed Feb 05 14:19:19 IST 2025","passed","Wed Feb 05 14:19:20 IST 2025","","test.spec.js","",""
+"","375","machine2","chromium","Wed Feb 05 14:19:19 IST 2025","passed","Wed Feb 05 14:19:19 IST 2025","","test.spec.js","",""
+"","7404","should open the base URL","chromium","Wed Feb 05 14:18:36 IST 2025","passed","Wed Feb 05 14:18:43 IST 2025","","orangeHRMUsingJS.spec.js","",""
+"","365","machine3","chromium","Wed Feb 05 14:19:19 IST 2025","passed","Wed Feb 05 14:19:19 IST 2025","","test.spec.js","",""
+"","35264","OrangeHRM Application System User Validation Using JS","chromium","Wed Feb 05 14:18:43 IST 2025","passed","Wed Feb 05 14:19:19 IST 2025","","test.spec.js","",""
