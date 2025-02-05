@@ -19,10 +19,10 @@ async function globalSetup(config) {
 
     console.log(`🔹 Writing Environment Variables:\n${envVars}`);
 
-    if (!fs.existsSync(allureResultsPath)) {
-        fs.mkdirSync(allureResultsPath, { recursive: true });
-    }
-    fs.writeFileSync(path.join(allureResultsPath, 'environment.properties'), envVars);
+    // if (!fs.existsSync(allureResultsPath)) {
+    //     fs.mkdirSync(allureResultsPath, { recursive: true });
+    // }
+    // fs.writeFileSync(path.join(allureResultsPath, 'environment.properties'), envVars);
 }
 
 module.exports = globalSetup;
