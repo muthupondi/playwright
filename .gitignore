@@ -1,0 +1,16 @@
+# Ignore Allure reports and results
+allure-report/
+allure-results/
+
+# Ignore Playwright reports and test results
+playwright-report/
+test-results/
+
+# Optional: Ignore OS-specific and editor-specific files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Optional: Ignore Node.js dependencies
+node_modules/
