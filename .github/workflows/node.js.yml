@@ -1,9 +1,9 @@
 name: Playwright Tests
 on:
   push:
-    branches: [ main, master ]
+    branches: [ develop, master ]
   pull_request:
-    branches: [ main, master ]
+    branches: [ develop, master ]
   workflow_dispatch:
     inputs:
       logLevel:
@@ -30,7 +30,7 @@ jobs:
       run: npx playwright install --with-deps
 
     - name: Run Playwright tests
-      run: npx playwright test -g "parallel" --shard=${{ matrix.shardIndex }}/${{ matrix.shardTotal }}
+      run: set NODE_ENV=uat&& npx playwright test --project=chromium --headed --shard=${{ matrix.shardIndex }}/${{ matrix.shardTotal }}
 
     - name: Upload blob report to GitHub Actions Artifacts
       if: always()
